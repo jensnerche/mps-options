@@ -52,6 +52,9 @@
       <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412326871" resolveInfo="Light" />
       <link role="value" roleId="khnu.1231911953412331630" targetNodeId="1231911953412329072" resolveInfo="LED" />
     </node>
+    <node role="customer" roleId="khnu.1231911953412337720" type="khnu.Customer" typeId="khnu.1231911953412337715" id="1231911953412340334">
+      <property name="name" nameId="tpck.1169194664001" value="Jens" />
+    </node>
   </root>
 </model>
 
