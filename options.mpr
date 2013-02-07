@@ -47,6 +47,7 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="${project}/languages/instance/instance.mpl" folder="" />
       <modulePath path="${project}/languages/options/options.mpl" />
       <modulePath path="${project}/solutions/options.sandbox/options.sandbox.msd" />
     </projectModules>
