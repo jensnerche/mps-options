@@ -56,7 +56,7 @@
     </node>
     <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345454">
       <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412345069" resolveInfo="Engine" />
-      <link role="value" roleId="khnu.1231911953412331630" targetNodeId="1231911953412345073" resolveInfo="Diesel" />
+      <link role="value" roleId="khnu.1231911953412331630" targetNodeId="1231911953412345073" resolveInfo="diesel engine" />
     </node>
     <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345455">
       <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412345071" resolveInfo="Navi" />
@@ -67,10 +67,10 @@
     <node role="features" roleId="zjnk.1231911953412326102" type="zjnk.Feature" typeId="zjnk.1231911953412326094" id="1231911953412345069">
       <property name="name" nameId="tpck.1169194664001" value="Engine" />
       <node role="values" roleId="zjnk.1231911953412326877" type="zjnk.FeatureValue" typeId="zjnk.1231911953412326872" id="1231911953412345070">
-        <property name="name" nameId="tpck.1169194664001" value="Otto" />
+        <property name="name" nameId="tpck.1169194664001" value="gas engine" />
       </node>
       <node role="values" roleId="zjnk.1231911953412326877" type="zjnk.FeatureValue" typeId="zjnk.1231911953412326872" id="1231911953412345073">
-        <property name="name" nameId="tpck.1169194664001" value="Diesel" />
+        <property name="name" nameId="tpck.1169194664001" value="diesel engine" />
       </node>
     </node>
     <node role="features" roleId="zjnk.1231911953412326102" type="zjnk.Feature" typeId="zjnk.1231911953412326094" id="1231911953412345071">
