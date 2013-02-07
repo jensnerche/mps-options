@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="zjnk" modelUID="r:46c631af-db72-41d2-9a77-0dc5171228f8(options.structure)" version="-1" />
+    </dependencies>
+    <rename id="zjnk.1231911953412326877" type="CHILD" from="valuesValue" to="values" />
+  </StructureModification>
+</history>
+
