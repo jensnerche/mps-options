@@ -14,9 +14,6 @@
       <property name="name" nameId="tpck.1169194664001" value="Jens" />
       <link role="product" roleId="khnu.1231911953412330770" targetNodeId="1231911953412345068" resolveInfo="Car" />
     </node>
-    <node type="khnu.ProductInstance" typeId="khnu.1231911953412330768" id="1231911953412345064">
-      <link role="product" roleId="khnu.1231911953412330770" targetNodeId="1231911953412325729" resolveInfo="Bike" />
-    </node>
     <node type="zjnk.Product" typeId="zjnk.1231911953412325722" id="1231911953412345068">
       <property name="name" nameId="tpck.1169194664001" value="Car" />
     </node>
@@ -64,18 +61,6 @@
     <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345455">
       <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412345071" resolveInfo="Navi" />
       <link role="value" roleId="khnu.1231911953412331630" targetNodeId="1231911953412345076" resolveInfo="no" />
-    </node>
-  </root>
-  <root id="1231911953412345064">
-    <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345065">
-      <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412326869" resolveInfo="Color" />
-      <link role="value" roleId="khnu.1231911953412331630" targetNodeId="1231911953412329062" resolveInfo="blue" />
-    </node>
-    <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345066">
-      <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412326870" resolveInfo="Gears" />
-    </node>
-    <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345067">
-      <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412326871" resolveInfo="Light" />
     </node>
   </root>
   <root id="1231911953412345068">
