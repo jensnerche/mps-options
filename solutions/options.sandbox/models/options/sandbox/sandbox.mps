@@ -12,7 +12,13 @@
     </node>
     <node type="khnu.ProductInstance" typeId="khnu.1231911953412330768" id="1231911953412331430">
       <property name="name" nameId="tpck.1169194664001" value="Jens" />
+      <link role="product" roleId="khnu.1231911953412330770" targetNodeId="1231911953412345068" resolveInfo="Car" />
+    </node>
+    <node type="khnu.ProductInstance" typeId="khnu.1231911953412330768" id="1231911953412345064">
       <link role="product" roleId="khnu.1231911953412330770" targetNodeId="1231911953412325729" resolveInfo="Bike" />
+    </node>
+    <node type="zjnk.Product" typeId="zjnk.1231911953412325722" id="1231911953412345068">
+      <property name="name" nameId="tpck.1169194664001" value="Car" />
     </node>
   </roots>
   <root id="1231911953412325729">
@@ -48,12 +54,48 @@
     </node>
   </root>
   <root id="1231911953412331430">
-    <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412337283">
-      <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412326871" resolveInfo="Light" />
-      <link role="value" roleId="khnu.1231911953412331630" targetNodeId="1231911953412329072" resolveInfo="LED" />
-    </node>
     <node role="customer" roleId="khnu.1231911953412337720" type="khnu.Customer" typeId="khnu.1231911953412337715" id="1231911953412343478">
       <property name="name" nameId="tpck.1169194664001" value="Jens" />
+    </node>
+    <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345454">
+      <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412345069" resolveInfo="Engine" />
+      <link role="value" roleId="khnu.1231911953412331630" targetNodeId="1231911953412345073" resolveInfo="Diesel" />
+    </node>
+    <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345455">
+      <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412345071" resolveInfo="Navi" />
+      <link role="value" roleId="khnu.1231911953412331630" targetNodeId="1231911953412345076" resolveInfo="no" />
+    </node>
+  </root>
+  <root id="1231911953412345064">
+    <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345065">
+      <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412326869" resolveInfo="Color" />
+      <link role="value" roleId="khnu.1231911953412331630" targetNodeId="1231911953412329062" resolveInfo="blue" />
+    </node>
+    <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345066">
+      <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412326870" resolveInfo="Gears" />
+    </node>
+    <node role="configurationOptions" roleId="khnu.1231911953412331444" type="khnu.FeatureInstance" typeId="khnu.1231911953412331431" id="1231911953412345067">
+      <link role="feature" roleId="khnu.1231911953412331432" targetNodeId="1231911953412326871" resolveInfo="Light" />
+    </node>
+  </root>
+  <root id="1231911953412345068">
+    <node role="features" roleId="zjnk.1231911953412326102" type="zjnk.Feature" typeId="zjnk.1231911953412326094" id="1231911953412345069">
+      <property name="name" nameId="tpck.1169194664001" value="Engine" />
+      <node role="values" roleId="zjnk.1231911953412326877" type="zjnk.FeatureValue" typeId="zjnk.1231911953412326872" id="1231911953412345070">
+        <property name="name" nameId="tpck.1169194664001" value="Otto" />
+      </node>
+      <node role="values" roleId="zjnk.1231911953412326877" type="zjnk.FeatureValue" typeId="zjnk.1231911953412326872" id="1231911953412345073">
+        <property name="name" nameId="tpck.1169194664001" value="Diesel" />
+      </node>
+    </node>
+    <node role="features" roleId="zjnk.1231911953412326102" type="zjnk.Feature" typeId="zjnk.1231911953412326094" id="1231911953412345071">
+      <property name="name" nameId="tpck.1169194664001" value="Navi" />
+      <node role="values" roleId="zjnk.1231911953412326877" type="zjnk.FeatureValue" typeId="zjnk.1231911953412326872" id="1231911953412345072">
+        <property name="name" nameId="tpck.1169194664001" value="yes" />
+      </node>
+      <node role="values" roleId="zjnk.1231911953412326877" type="zjnk.FeatureValue" typeId="zjnk.1231911953412326872" id="1231911953412345076">
+        <property name="name" nameId="tpck.1169194664001" value="no" />
+      </node>
     </node>
   </root>
 </model>
